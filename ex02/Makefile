@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Serialization
+NAME = real_type
 
 #=-=-=-=-=-=-FILES-=-=-=-=-=-=#
 
@@ -29,7 +29,10 @@ DEPS_BONUS        =   $(patsubst %.cpp, $(BUILD_DIR)%.d, $(SRC_BONUS))
 #=-=-=-=-=-=-ROOT-=-=-=-=-=#
 
 SRC =   main.cpp \
-		Serializer.cpp \
+		Base.cpp \
+		A.cpp \
+		B.cpp \
+		C.cpp \
 
 #=-=-=-=-=-=-INCLUDES-=-=-=-=-=#
 
